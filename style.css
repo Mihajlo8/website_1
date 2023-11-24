@@ -13,27 +13,35 @@
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
-* {                                        /* geldt voor alles */
-  box-sizing: border-box;                  /* zorg dat border meetelt bij de width en height van boxen */
-  margin: 0px;                             /* standaard marge 0 */
-}
 
-html, body {                      /* geldt voor html en body */
-  margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+
+html {                      /* geldt voor html en body */
+  margin: 0px;                    /* standaard marge 0 */  
+
 }  
 
-div {                             /* geldt voor div */
-  overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
+.page  {                             /* geldt voor div */
+   
+  height: 600px;              /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
 }
 
 /* Indeling voor alle pagina's */
 
-.page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+.plaatje-naast-tekst{
+  float: left;
+  width: 250px;
+  padding-right: 15px;
+  margin-top: 0px;
 }
+
+.kaas{
+  float: left;
+  width: 350px;
+  padding-right: 15px;
+  margin-top: 0px;
+}
+
+
 
 header, footer {                  /* geldt voor header en footer */
   margin: 10px 0px;
@@ -49,11 +57,19 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
 
 p {
   margin: 10px 0px;
-  text-align: justify;            /* tekst links en rechts uitvullen */
+  text-align: justify;
+  position: center;            /* tekst links en rechts uitvullen */
 }
 
 img {
   margin: 10px 0px;
+}
+.alinea{
+  width: 50%;
+  margin-left: 500px ; 
+  margin-top: 0px ;
+
+ /* links en rechts evenveel marge, zodat het in de midden komt */
 }
 
 /* Indeling voor hoofd pagina */
@@ -61,13 +77,13 @@ img {
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 .item-plaatje {
-  float:left;
-  width:250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  width:250px; 
+  margin-right: 100px;
 }
+
 .item-tekst {
-  float:right;
-  width: 450px;
+  
+  width: 200px;
 }
 
 /* Indeling voor sub pagina */
@@ -95,6 +111,13 @@ a:hover {
 /* Opmaak voor sub pagina's */
 
 /* Navigatiebalk voor alle pagina's */
+
+nav{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
 nav ul {
     list-style-type: none;
     margin: auto;
@@ -116,9 +139,38 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #f10909;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(9, 15, 201);
+}
+
+
+
+
+
+#image-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background-image: url(servie\ flag.png);
+  background-size: cover;
+  background-position: center;
+overflow: hidden;
+}
+ 
+
+
+.iten-plaatje{
+ 
+  float: right;
+  width: 250px;
+  padding-right: 15px;
+  margin-top: 0px;
+  
+
 }
