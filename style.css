@@ -29,7 +29,7 @@ html {                      /* geldt voor html en body */
 
 .plaatje-naast-tekst{
   float: left;
-  width: 250px;
+  width: 300px;
   padding-right: 15px;
   margin-top: 0px;
 }
@@ -76,15 +76,9 @@ img {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-.item-plaatje {
-  width:250px; 
-  margin-right: 100px;
-}
 
-.item-tekst {
-  
-  width: 200px;
-}
+
+
 
 /* Indeling voor sub pagina */
 
@@ -163,12 +157,16 @@ nav li a.active {
 overflow: hidden;
 }
  
+.links{
+  color: rgb(221, 27, 27);
+
+}
 
 
 .iten-plaatje{
  
   float: right;
-  width: 250px;
+  width: 300px;
   padding-right: 15px;
   margin-top: 0px;
   
