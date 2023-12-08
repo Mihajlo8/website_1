@@ -76,8 +76,14 @@ img {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-
-
+table, th, td {
+  border: 1px solid black;
+  margin-left: ;
+}
+.belangrijk{
+  color:black;
+  margin-right: 500px ;
+}
 
 
 /* Indeling voor sub pagina */
