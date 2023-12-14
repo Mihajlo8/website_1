@@ -34,12 +34,6 @@ html {                      /* geldt voor html en body */
   margin-top: 0px;
 }
 
-.kaas{
-  float: left;
-  width: 350px;
-  padding-right: 15px;
-  margin-top: 0px;
-}
 
 
 
@@ -60,7 +54,13 @@ p {
   text-align: justify;
   position: center;            /* tekst links en rechts uitvullen */
 }
-
+.kaas{
+  float: left;
+  width: 400px;
+  padding-right: 15px;
+  margin-top: 0px;
+  
+}
 img {
   margin: 10px 0px;
 }
@@ -76,9 +76,17 @@ img {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-table, th, td {
+table{
   border: 1px solid black;
-  margin-left: ;
+ position: absolute;
+ left:10px;
+ bottom: 600px;
+ width: 200px;
+
+}
+th, td{
+ border: 1px solid rgb(0, 0, 0);
+
 }
 .belangrijk{
   color:black;
@@ -161,8 +169,9 @@ nav li a.active {
   background-size: cover;
   background-position: center;
 overflow: hidden;
+
 }
- 
+
 .links{
   color: rgb(221, 27, 27);
 
