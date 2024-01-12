@@ -21,8 +21,9 @@ html {                      /* geldt voor html en body */
 }  
 
 .page  {                             /* geldt voor div */
-   
-  height: 600px;              /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
+   width: 700px;
+   margin: 10px auto;
+               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
 }
 
 /* Indeling voor alle pagina's */
@@ -175,7 +176,7 @@ nav li a.active {
 
 
 
-#image-container {
+#image-container2 {
   position: fixed;
   top: 0;
   left: 0;
@@ -186,8 +187,19 @@ nav li a.active {
   background-size: cover;
   background-position: center;
 overflow: hidden;
-
 }
+
+#image-container1 {
+  background-image: url('Flag_of_Serbia_(1882–1918) (1).svg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ 
+}
+
+
+
+
 
 .links{
   color: rgb(221, 27, 27);
@@ -288,4 +300,30 @@ overflow: hidden;
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+.saf{
+background-color: white;
+border-radius: 5px;
+margin: 5px;
+border: 2px solid rgb(221, 27, 27);
+width: 50%;
+overflow: auto;
+height: 150px;
+width: 300px;
+margin: 200px;
+text-align: center;
+
+}
+
+.timme{
+background-color: white;
+border-radius: 5px;
+margin: 5px;
+border: 2px solid rgb(221, 27, 27);
+overflow: auto;
+height: 200px;
+width: 200px;
+
+
 }
