@@ -30,18 +30,19 @@ html {                      /* geldt voor html en body */
 
 .CrvenaZvezda{
   float: left;
-  width: 300px;
+  width: 250px;
   padding-right: 15px;
   margin-top: 0px;
 }
 
 .Partizan{
  
-  float: right;
-  width: 300px;
+  /* float: right; */
+  width: 250px;
   padding-right: 15px;
   margin-top: 0px;
-  bottom: 0px;
+  margin-left: 200px;
+  
 }
 
 
@@ -75,9 +76,14 @@ img {
   margin: 10px 0px;
 }
 .alinea{
-  width: 50%;
-  margin-left: 500px ; 
+  /* width: 50%; */
+  /* margin-left: 500px ;  */
   margin-top: 0px ;
+  background-color:#953e3e;
+  opacity: 0.8; 
+  border-width:5px;
+ border-color:aqua;
+ border-style:solid;
 
  /* links en rechts evenveel marge, zodat het in de midden komt */
 }
@@ -300,30 +306,4 @@ overflow: hidden;
 .active,
 .demo:hover {
   opacity: 1;
-}
-
-.saf{
-background-color: white;
-border-radius: 5px;
-margin: 5px;
-border: 2px solid rgb(221, 27, 27);
-width: 50%;
-overflow: auto;
-height: 150px;
-width: 300px;
-margin: 200px;
-text-align: center;
-
-}
-
-.timme{
-background-color: white;
-border-radius: 5px;
-margin: 5px;
-border: 2px solid rgb(221, 27, 27);
-overflow: auto;
-height: 200px;
-width: 200px;
-
-
 }
