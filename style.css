@@ -36,8 +36,6 @@ html {                      /* geldt voor html en body */
 }
 
 .Partizan{
- 
-  /* float: right; */
   width: 250px;
   padding-right: 15px;
   margin-top: 0px;
@@ -66,11 +64,10 @@ p {
   position: center;            /* tekst links en rechts uitvullen */
 }
 .Champions-league{
-  float: left;
-  width: 400px;
+  width: 250px;
   padding-right: 15px;
   margin-top: 0px;
-  
+ 
 }
 img {
   margin: 10px 0px;
@@ -79,10 +76,10 @@ img {
   /* width: 50%; */
   /* margin-left: 500px ;  */
   margin-top: 0px ;
-  background-color:#953e3e;
+  background-color:#e2e2e2;
   opacity: 0.8; 
   border-width:5px;
- border-color:aqua;
+ border-color:rgb(55, 0, 255);
  border-style:solid;
 
  /* links en rechts evenveel marge, zodat het in de midden komt */
@@ -94,19 +91,13 @@ img {
 
 table {
   border: 1px solid black;
- position: absolute;
+
  left:10px;
  bottom: 600px;
- width: 200px;
+ width: 100%;
 
 }
-.ServieWK{
-  border: 1px solid black;
-  position: absolute;
-  left: 1818px;
-  bottom: 700px;
-  width: 400px;
-}
+
   
 th, td{
  border: 1px solid rgb(0, 0, 0);
@@ -182,6 +173,7 @@ nav li a.active {
 
 
 
+
 #image-container2 {
   position: fixed;
   top: 0;
@@ -213,14 +205,7 @@ overflow: hidden;
 }
 
 
-.Servië-U20{
- 
-  float: right;
-  width: 400px;
-  padding-right: 15px;
-  margin-top: 0px;
-  bottom: 0px;
-}
+
 * {
   box-sizing: border-box;
 }
